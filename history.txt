@@ -1,0 +1,6 @@
+    1  grep "France,2019,PHP" wilders.csv > php_france_2018.csv
+    2  grep "JavaScript" wilders.csv > JS.csv
+    3  grep "Biarritz" JS.csv > BJS.csv
+    4  grep "Toulouse" JS.csv > TJS.csv
+    5  cat BJS.csv TJS.csv > javascript_toulouse_biarritz.csv
+    6  history | tail > history.txt
